@@ -95,5 +95,5 @@ const resetDisplay = () => {
 
 const randomNumber = () => {
   const val = Math.floor(Math.random() * 10);
-  return val < 8 ? val : 0;
+  return val < 5 ? val : 0;
 };
