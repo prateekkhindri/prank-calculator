@@ -1,12 +1,3 @@
-// *****THOUGHT PROCESS*******
-// 1. Press the button, to display number on the screen in order from left to right
-// 2. Press = show the total result
-// 3. Pressing the AC button to clear the screen
-// 4. Pressing the C button will delete the last number/character
-
-// 1. Press the button, to display number on the screen in order from left to right
-// Array.forEach((anything) => {})
-// Below we are selecting all the buttons together and then looping as all the buttons can be selected as arrays
 const buttons = document.querySelectorAll("button");
 const displayElement = document.querySelector("#result");
 
